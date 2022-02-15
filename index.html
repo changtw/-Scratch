@@ -60,8 +60,8 @@
       c1.ontouchstart = function(ev){ // 原本是onmousedown 
     c1.ontouchmove = function(e){  // 原本是onmousemove 
       console.log(e);
-      var w = 20; 
-      var h = 20; 
+      var w = 30; 
+      var h = 30; 
       var x = e.pageX-c1.offsetLeft - w/2;
       var y = e.pageY-c1.offsetTop - h/2;
       ctx1.clearRect(x,y,w,h);
